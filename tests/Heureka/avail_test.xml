@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item_list>
+ <item id="10">
+  <delivery_time orderDeadline="2017-12-12 12:00">2017-12-14 12:00</delivery_time>
+ </item>
+ <item id="99">
+  <delivery_time orderDeadline="2017-12-12 12:00">2017-12-13 12:00</delivery_time>
+  <stock_quantity>6</stock_quantity>
+  <depot id="aaa">
+   <pickup_time orderDeadline="2017-12-12 12:00">2017-12-12 12:00</pickup_time>
+   <stock_quantity>3</stock_quantity>
+  </depot>
+ </item>
+</item_list>

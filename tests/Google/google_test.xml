@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0">
+ <channel>
+  <title/>
+  <description/>
+  <link/>
+  <item>
+   <g:title>Test</g:title>
+   <link>http://www.seznam.cz</link>
+   <g:id>10</g:id>
+   <description>popisek</description>
+   <g:price>100 CZK</g:price>
+   <g:product_type>moje &gt; kategorie</g:product_type>
+   <g:google_product_category>google &gt; kategorie</g:google_product_category>
+   <g:condition>new</g:condition>
+   <g:quantity>2</g:quantity>
+   <g:availability>in stock</g:availability>
+   <g:gtin>1234567890123</g:gtin>
+   <g:brand>značka</g:brand>
+   <g:image_link>http://www.seznam.cz/obrazek.jpg</g:image_link>
+  </item>
+  <item>
+   <g:title>varianta</g:title>
+   <link>http://www.seznam.cz</link>
+   <g:id>11_vid1</g:id>
+   <description>popisek</description>
+   <g:price>100 CZK</g:price>
+   <g:product_type>moje &gt; kategorie</g:product_type>
+   <g:google_product_category>google &gt; kategorie</g:google_product_category>
+   <g:condition>new</g:condition>
+   <g:quantity>2</g:quantity>
+   <g:availability>in stock</g:availability>
+   <g:gtin>1234567890123</g:gtin>
+   <g:brand>značka</g:brand>
+   <g:image_link>http://www.seznam.cz/obrazek.jpg</g:image_link>
+   <g:item_group_id>11</g:item_group_id>
+  </item>
+ </channel>
+</rss>

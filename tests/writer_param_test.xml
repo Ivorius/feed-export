@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PARAM>
+ <PARAM_NAME>Barva</PARAM_NAME>
+ <VAL>Červená</VAL>
+ <UNIT></UNIT>
+</PARAM>
+<PARAM>
+ <PARAM_NAME>Váha</PARAM_NAME>
+ <VAL>150</VAL>
+ <UNIT>g</UNIT>
+</PARAM>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SHOP xmlns="http://www.zbozi.cz/ns/offer/1.0">
+ <SHOPITEM>
+  <ITEM_ID>10</ITEM_ID>
+  <PRODUCTNAME>Test</PRODUCTNAME>
+  <PRICE_VAT>100</PRICE_VAT>
+  <DESCRIPTION>popisek</DESCRIPTION>
+  <DELIVERY_DATE>0</DELIVERY_DATE>
+  <URL>http://test.cz</URL>
+ </SHOPITEM>
+ <SHOPITEM>
+  <ITEM_ID>99_vid1</ITEM_ID>
+  <ITEMGROUP_ID>99</ITEMGROUP_ID>
+  <PRODUCTNAME>Varianta</PRODUCTNAME>
+  <PRICE_VAT>200</PRICE_VAT>
+  <DESCRIPTION>popisek</DESCRIPTION>
+  <DELIVERY_DATE>1</DELIVERY_DATE>
+  <URL>http://test.cz/variata1</URL>
+  <MANUFACTURER>Vyrobce</MANUFACTURER>
+  <EAN>1234567890123</EAN>
+  <CATEGORYTEXT>Main | Sub | Detail</CATEGORYTEXT>
+  <MAX_CPC>15</MAX_CPC>
+  <IMGURL>http://www.test/obrazek.jpg</IMGURL>
+  <IMGURL>http://www.test/obrazek2.jpg</IMGURL>
+  <PARAM>
+   <PARAM_NAME>parametr</PARAM_NAME>
+   <VAL>20</VAL>
+   <UNIT>kg</UNIT>
+  </PARAM>
+  <PARAM>
+   <PARAM_NAME>barva</PARAM_NAME>
+   <VAL>modra</VAL>
+   <UNIT></UNIT>
+  </PARAM>
+ </SHOPITEM>
+</SHOP>

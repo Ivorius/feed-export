@@ -1,0 +1,20 @@
+{
+  "name": "unio/feed-export",
+  "description": "Tvorba XML feedů pro porovnávače zboží: Heureka.cz, Zbozi.cz a Google Products",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Ivo Toman", "email": "ivorius@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "nette/utils": "^2.4.8"
+  },
+  "autoload": {
+    "psr-4": {
+      "Unio\\FeedExport\\": "src/",
+      "Unio\\FeedExport\\Tests\\": "tests/"
+    }
+  }
+}
