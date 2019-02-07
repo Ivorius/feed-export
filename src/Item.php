@@ -3,9 +3,14 @@
 namespace Unio\FeedExport;
 
 use Nette\Object;
+use Nette\SmartObject;
 
-abstract class Item extends Object implements IItem
+abstract class Item implements IItem
 {
+
+	use SmartObject;
+
+
 	/** @var array */
 	protected $row = [];
 

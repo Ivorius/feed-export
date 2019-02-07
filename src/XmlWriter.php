@@ -3,10 +3,13 @@
 namespace Unio\FeedExport;
 
 
-use Nette\Object;
+use Nette\SmartObject;
 
-class XmlWriter extends Object implements IWriter
+class XmlWriter implements IWriter
 {
+
+	use SmartObject;
+
 	/**
 	 * @var \XMLWriter
 	 */
