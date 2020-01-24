@@ -2,7 +2,6 @@
 
 namespace Unio\FeedExport;
 
-use Nette\Object;
 use Nette\SmartObject;
 
 abstract class Item implements IItem
