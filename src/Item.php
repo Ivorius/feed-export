@@ -28,7 +28,7 @@ abstract class Item implements IItem
 	{
 		$diff = array_diff_key(array_flip($this->required), $this->row);
 		if($diff)
-			throw new InvalidArgumentException('These elements are required and have not been set: ' . implode(array_keys($diff), ","));
+			throw new InvalidArgumentException('These elements are required and have not been set: ' . implode(",", array_keys($diff)));
 
 		$instersect = array_intersect_key($this->row, array_flip($this->required));
 		$filtered = array_filter($instersect, function($value) {
@@ -37,7 +37,7 @@ abstract class Item implements IItem
 			}
 		});
 		if($filtered)
-			throw new InvalidArgumentException('These elements can not be empty: ' . implode(array_keys($filtered), ","));
+			throw new InvalidArgumentException('These elements can not be empty: ' . implode(",", array_keys($filtered)));
 	}
 
 
